@@ -12,6 +12,7 @@ def sum_array(array)
   for num in array
     total += num
   end
+  #short way: return array.sum()
 
   return total
 end
@@ -25,6 +26,7 @@ def find_item(houses, house_name)
     end
   end
   return false
+  #short way: return array.include?(house_name)
 end
 
 # -- 4 --
