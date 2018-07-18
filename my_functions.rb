@@ -26,3 +26,9 @@ def find_item(houses, house_name)
   end
   return false
 end
+
+# -- 4 --
+
+def get_first_key(hash)
+  return hash.keys()[0]
+end
